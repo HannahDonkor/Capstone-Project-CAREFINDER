@@ -3,7 +3,6 @@ import SearchBar from '../../Components/SearchBar/SearchBar';
 import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import './Home.css';
 import { useDebounce } from '../../Hooks/use-debounce';
-import HospitalList from '../../Components/HospitalList/HospitalList';
 
 type ResultType = { type: 'region' | 'hospital'; data: any[] };
 

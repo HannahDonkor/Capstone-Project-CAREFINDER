@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
-import { URLSearchParams } from 'url';
-import MarkdownEditor from '../../Components/MarkdowmEditor/MarkdownEditor';
 import SearchBar from '../../Components/SearchBar/SearchBar';
 import './Find.css';
 import HospitalRow from './HospitalRow';
