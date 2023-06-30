@@ -47,7 +47,7 @@ button[type="submit"]:hover {
 }
 
 .checkbox {
-    display: flex;
+    /* display: flex; */
     margin-top: 15px;
 
 }

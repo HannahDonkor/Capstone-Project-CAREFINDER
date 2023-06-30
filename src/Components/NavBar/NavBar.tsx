@@ -4,7 +4,7 @@ import './NavBar.css';
 import { BsFillHeartPulseFill } from 'react-icons/bs';
 import { TbDental } from 'react-icons/tb';
 import { CiStethoscope } from 'react-icons/ci';
-import Link from '../Link/Link';
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 type NavbarLink = {
@@ -57,7 +57,8 @@ const NavBar = () => {
       </div>
       <div className="links">
         {links.map((link) => (
-          <Link key={link.id} name={link.name} path={link.path} />
+          <Link key={link.id} to={link.path}>{link.name}</Link>
+          // <Link key={link.id} name={link.name} path={link.path} />
         ))}
         {isLoggedIn && (
           <button className="signout-button" onClick={signout}>

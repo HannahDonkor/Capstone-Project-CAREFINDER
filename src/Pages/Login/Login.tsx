@@ -78,10 +78,10 @@ function Login() {
         <div>
           <input id="accept" className="check" type="checkbox" />
           <label htmlFor="accept" className="terms">
-            Remember
+            Remember me
           </label>
         </div>
-        <span className="reset">Forgot password?</span>
+        {/* <span className="reset">Forgot password?</span> */}
       </div>
     </form>
   );
